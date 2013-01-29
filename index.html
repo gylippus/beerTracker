@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="utf-8" http-equiv="encoding">
+<title>Beer Tracker</title>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="./assets/css/site.css">
+<link rel="stylesheet" href="./assets/css/bootstrap-responsive.min.css">
+<link href='http://fonts.googleapis.com/css?family=Arbutus' rel='stylesheet' type='text/css'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="SHORTCUT ICON" href="./assets/img/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="./assets/img/icon.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/img/icon72.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/img/icon114.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/img/icon144.ico" />
+<link rel="stylesheet" href="./assets/css/custom.css">
+
+</head>
+
+<body onload="init()">
+	<div class="page-header">
+		<div style="text-align:center"><h1>Beer Tracker <small style="color:rgb(255, 251, 144)">Know when to stop!</small></h1></div>
+  		
+	</div>
+	
+	<div id="code">
+		<div class="well feature">
+			<span class="shelves">
+				<div class="row">
+  					<div class="span6"><i class="icon-beer"></i></div>
+  					<div class="span6"><i class="icon-beer"></i></div>
+				</div>
+				<div class="row">
+  					<div class="span6"><i class="icon-beer"></i></div>
+  					<div class="span6"><i class="icon-beer"></i></div>
+				</div>
+				<div class="row">
+  					<div class="span6"><i class="icon-beer"></i></div>
+  					<div class="span6"><i class="icon-beer"></i></div>
+				</div>
+			</span>
+		</div>
+		<div class="row" id="clear-row">
+			<div class="span12">
+				<button class="btn-large btn-danger" type="button" id="clear-button">
+					<i class="icon-minus-sign pull left">
+					</i> Clear the Bar</i>
+				</button>
+			</div>
+		</div>
+		
+		<div class="row" id="water-row">
+			<div class="span12">
+				<button class="btn btn-large disabled" id="water-button" type="button">
+					<i class="icon-tint pull left">
+					</i> Don't Forget to Drink Water!</i>
+				</button>
+			</div>
+		</div>
+
+	</div>
+	
+	
+
+<script src="./assets/js/jquery-1.7.1.min.js"></script>
+<script src="./assets/js/action.js"></script>
+</body>
+
+</html>

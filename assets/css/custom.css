@@ -1,0 +1,104 @@
+	body{
+		background: url('../img/wood.jpg');
+		font-family: 'Arbutus', cursive;
+	}
+	button {
+		font-family: 'Arbutus', cursive;
+	}
+	.page-header{
+		color:white;
+	}
+	#code{
+		margin-top:10px;
+		margin-left:20px;
+		margin-right:20px;
+		text-align:center;
+	}
+	.feature{
+		background-color: rgba(209, 166, 74, 0.47);
+	}
+	
+	.icon-beer{
+   		color:white;
+		font-size:800%;
+
+		-webkit-text-stroke-width: 1px;
+   		-webkit-text-stroke-color: black;
+   		text-shadow: 1px 1px 2px #000;
+   		/* IE 8 */
+ 		 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  		/* IE 5-7 */
+  		filter: alpha(opacity=80);
+  		/* Netscape */
+  		-moz-opacity: 0.8;
+  		/* Safari 1.x */
+  		-khtml-opacity: 0.8;
+  		/* Good browsers */
+  		opacity: 0.8;
+	}
+
+	.clickedOn{
+		color:rgb(255, 233, 68);
+	}
+
+	.hovered{
+		color:rgb(255, 233, 68);
+	}
+	.span6{
+		width:46%;
+	}
+	@media (min-width: 1200px){
+		.span6{
+			width:47%;
+		}
+	}
+	@media (max-width: 979px) and (min-width: 768px){
+		.span6{
+			width:46.8%;
+		}
+	}
+	@media (max-width: 767px){
+	
+		.span6{
+			width:50%;
+		}	
+	}
+	
+	@media (max-width: 450px){
+		.icon-beer{
+			font-size:500%;
+		}
+		.page-header small {
+			font-size:75%;
+			margin-top:-10px;
+			margin-bottom:-15px;
+		}
+
+		.page-header h1{
+			margin-top:-25px;
+			font-size:150%;
+		}
+		.feature{
+			margin-top:-25px;
+			margin-bottom:5px;
+		}
+		#code{
+		margin-left:10px;
+		margin-right:10px;
+		}
+	}
+	.span12{
+		width:100%;
+	}	
+	#clear-row{
+		padding-bottom:10px;
+	}
+	#water-row{
+		margin-bottom:20px;
+	}
+	#clear-button{
+		text-align:center;
+	}
+	#water-button{
+		text-align:center;margin:auto 0;
+	}
