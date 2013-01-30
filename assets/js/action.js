@@ -1,3 +1,5 @@
+
+
 var drinks = 0;
 
 $(".icon-beer").click(function () {
@@ -18,12 +20,15 @@ $(".btn-danger").click(function () {
   localStorage.setItem("state", 0);
   drinks = 0;
 });
-$(".icon-beer").hover(function() {
+if ( Modernizr.touch == false ) {
+    $(".icon-beer").hover(function() {
   $(this).addClass('hovered');
    }, 
    function() {
    $(this).removeClass('hovered'); 
    })
+}
+
    
 function init(){
 	if (localStorage.getItem("state") == null){
