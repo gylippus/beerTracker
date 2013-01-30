@@ -1,14 +1,14 @@
 Beer Tracker
 ===========
 
-Just for fun way to track drink consumption. HTML/CSS/JQUERY/Font-Awesome/Bootstrap
+Just for fun way to track drink (or other) consumption. Designed with responsiveness and mobile at the forefront. HTML/CSS/JQUERY/Font-Awesome/Bootstrap
 
 Dependencies
 ===========
 
-Font-Awesome: http://fortawesome.github.com/Font-Awesome/
-Twitter-Bootstrap CSS: http://twitter.github.com/bootstrap/
-Modernizr: A small portion of Moderizr is used just to detect touch devices and disable hover if touch is present. http://modernizr.com/
+- Font-Awesome: http://fortawesome.github.com/Font-Awesome/
+- Twitter-Bootstrap CSS: http://twitter.github.com/bootstrap/
+- Modernizr: A small portion of Moderizr is used just to detect touch devices and disable hover if touch is present. http://modernizr.com/
 
 Configurations
 ===========
